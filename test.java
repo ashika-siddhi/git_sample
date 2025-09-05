@@ -8,4 +8,8 @@ public class test{
         System.out.println(n);
         sc.close();
     }
+
+    static void nothing(int n){
+        System.out.println("lets do nothing");
+    }
 }
