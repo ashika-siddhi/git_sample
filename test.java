@@ -10,6 +10,12 @@ public class test{
         sc.close();
     }
 
+
+    static void nothing(int n){
+        System.out.println("lets do nothing");
+    }
+}
+
     static int change(int n){
         return n+1;
     }
@@ -19,3 +25,4 @@ public class test{
     }
     #to check the pull request
 }
+
