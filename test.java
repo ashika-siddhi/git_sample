@@ -5,7 +5,11 @@ public class test{
         Scanner sc = new Scanner(System.in);
 
         int n= sc.nextInt();
-        System.out.println(n);
+        System.out.println(change(n));
         sc.close();
+    }
+
+    static int change(int n){
+        return n+1;
     }
 }
